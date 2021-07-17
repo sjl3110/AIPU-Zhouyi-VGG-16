@@ -1,0 +1,20 @@
+[INFO]:SIMULATOR START!
+[INFO]:========================================================================
+[INFO]:                             STATIC CHECK
+[INFO]:========================================================================
+[INFO]:  INST START ADDR : 0x0(0)
+[INFO]:  INST END ADDR   : 0xfb8f(64399)
+[INFO]:  INST SIZE       : 0xfb90(64400)
+[INFO]:  PACKET CNT      : 0xfb9(4025)
+[INFO]:  INST CNT        : 0x3ee4(16100)
+[INFO]:------------------------------------------------------------------------
+[WARN]:[0803] INST WR/RD REG CONFLICT! PACKET 0x1c4: 0x472021b(POP R27,Rc7) vs 0x5f00000(MVI R0,0x0,Rc7), PACKET:0x1c4(452) SLOT:0 vs 3
+[WARN]:[0803] INST WR/RD REG CONFLICT! PACKET 0x1d1: 0x472021b(POP R27,Rc7) vs 0x5f00000(MVI R0,0x0,Rc7), PACKET:0x1d1(465) SLOT:0 vs 3
+[WARN]:[0803] INST WR/RD REG CONFLICT! PACKET 0x336: 0x472021b(POP R27,Rc7) vs 0x9f80020(ADD.S R0,R0,0x1,Rc7), PACKET:0x336(822) SLOT:0 vs 3
+[WARN]:[0803] INST WR/RD REG CONFLICT! PACKET 0x4d3: 0x4520180(BRL R0) vs 0x47a03e5(ADD R5,R0,R31,Rc7), PACKET:0x4d3(1235) SLOT:0 vs 3
+[INFO]:========================================================================
+[INFO]:                             STATIC CHECK END
+[INFO]:========================================================================
+
+[INFO]:TOTAL TIME: 25.311878s. 
+[INFO]:SIMULATOR EXIT!

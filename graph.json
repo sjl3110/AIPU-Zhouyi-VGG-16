@@ -1,0 +1,276 @@
+{
+"graph_name":"vgg_16",
+"platform target":"Z1_0701",
+"total nodes number":22,
+"perf nodes number":21,
+"nodes":[{
+"layer node name":"input",
+"op_type":"Input",
+"running on":0,
+"ops_count":0
+}
+,{
+"layer node name":"subgraph_vgg_16_conv1_conv1_1_Conv2D",
+"op_type":"SubGraph",
+"running on":0,
+"ops_count":179830784,
+"perf_node":true,
+"internal_nodes":[{
+"layer node name":"vgg_16_conv1_conv1_1_Conv2D",
+"op_type":"Convolution"
+}
+]
+}
+,{
+"layer node name":"subgraph_vgg_16_conv1_conv1_2_Conv2D",
+"op_type":"SubGraph",
+"running on":0,
+"ops_count":3705798656,
+"perf_node":true,
+"internal_nodes":[{
+"layer node name":"vgg_16_conv1_conv1_2_Conv2D",
+"op_type":"Convolution"
+}
+]
+}
+,{
+"layer node name":"subgraph_vgg_16_pool1_MaxPool",
+"op_type":"SubGraph",
+"running on":0,
+"ops_count":3211264,
+"perf_node":true,
+"internal_nodes":[{
+"layer node name":"vgg_16_pool1_MaxPool",
+"op_type":"Pooling"
+}
+]
+}
+,{
+"layer node name":"subgraph_vgg_16_conv2_conv2_1_Conv2D",
+"op_type":"SubGraph",
+"running on":0,
+"ops_count":1852899328,
+"perf_node":true,
+"internal_nodes":[{
+"layer node name":"vgg_16_conv2_conv2_1_Conv2D",
+"op_type":"Convolution"
+}
+]
+}
+,{
+"layer node name":"subgraph_vgg_16_conv2_conv2_2_Conv2D",
+"op_type":"SubGraph",
+"running on":0,
+"ops_count":3702587392,
+"perf_node":true,
+"internal_nodes":[{
+"layer node name":"vgg_16_conv2_conv2_2_Conv2D",
+"op_type":"Convolution"
+}
+]
+}
+,{
+"layer node name":"subgraph_vgg_16_pool2_MaxPool",
+"op_type":"SubGraph",
+"running on":0,
+"ops_count":1605632,
+"perf_node":true,
+"internal_nodes":[{
+"layer node name":"vgg_16_pool2_MaxPool",
+"op_type":"Pooling"
+}
+]
+}
+,{
+"layer node name":"subgraph_vgg_16_conv3_conv3_1_Conv2D",
+"op_type":"SubGraph",
+"running on":0,
+"ops_count":1851293696,
+"perf_node":true,
+"internal_nodes":[{
+"layer node name":"vgg_16_conv3_conv3_1_Conv2D",
+"op_type":"Convolution"
+}
+]
+}
+,{
+"layer node name":"subgraph_vgg_16_conv3_conv3_2_Conv2D",
+"op_type":"SubGraph",
+"running on":0,
+"ops_count":3700981760,
+"perf_node":true,
+"internal_nodes":[{
+"layer node name":"vgg_16_conv3_conv3_2_Conv2D",
+"op_type":"Convolution"
+}
+]
+}
+,{
+"layer node name":"subgraph_vgg_16_conv3_conv3_3_Conv2D",
+"op_type":"SubGraph",
+"running on":0,
+"ops_count":3700981760,
+"perf_node":true,
+"internal_nodes":[{
+"layer node name":"vgg_16_conv3_conv3_3_Conv2D",
+"op_type":"Convolution"
+}
+]
+}
+,{
+"layer node name":"subgraph_vgg_16_pool3_MaxPool",
+"op_type":"SubGraph",
+"running on":0,
+"ops_count":802816,
+"perf_node":true,
+"internal_nodes":[{
+"layer node name":"vgg_16_pool3_MaxPool",
+"op_type":"Pooling"
+}
+]
+}
+,{
+"layer node name":"subgraph_vgg_16_conv4_conv4_1_Conv2D",
+"op_type":"SubGraph",
+"running on":0,
+"ops_count":1850490880,
+"perf_node":true,
+"internal_nodes":[{
+"layer node name":"vgg_16_conv4_conv4_1_Conv2D",
+"op_type":"Convolution"
+}
+]
+}
+,{
+"layer node name":"subgraph_vgg_16_conv4_conv4_2_Conv2D",
+"op_type":"SubGraph",
+"running on":0,
+"ops_count":3700178944,
+"perf_node":true,
+"internal_nodes":[{
+"layer node name":"vgg_16_conv4_conv4_2_Conv2D",
+"op_type":"Convolution"
+}
+]
+}
+,{
+"layer node name":"subgraph_vgg_16_conv4_conv4_3_Conv2D",
+"op_type":"SubGraph",
+"running on":0,
+"ops_count":3700178944,
+"perf_node":true,
+"internal_nodes":[{
+"layer node name":"vgg_16_conv4_conv4_3_Conv2D",
+"op_type":"Convolution"
+}
+]
+}
+,{
+"layer node name":"subgraph_vgg_16_pool4_MaxPool",
+"op_type":"SubGraph",
+"running on":0,
+"ops_count":401408,
+"perf_node":true,
+"internal_nodes":[{
+"layer node name":"vgg_16_pool4_MaxPool",
+"op_type":"Pooling"
+}
+]
+}
+,{
+"layer node name":"subgraph_vgg_16_conv5_conv5_1_Conv2D",
+"op_type":"SubGraph",
+"running on":0,
+"ops_count":925044736,
+"perf_node":true,
+"internal_nodes":[{
+"layer node name":"vgg_16_conv5_conv5_1_Conv2D",
+"op_type":"Convolution"
+}
+]
+}
+,{
+"layer node name":"subgraph_vgg_16_conv5_conv5_2_Conv2D",
+"op_type":"SubGraph",
+"running on":0,
+"ops_count":925044736,
+"perf_node":true,
+"internal_nodes":[{
+"layer node name":"vgg_16_conv5_conv5_2_Conv2D",
+"op_type":"Convolution"
+}
+]
+}
+,{
+"layer node name":"subgraph_vgg_16_conv5_conv5_3_Conv2D",
+"op_type":"SubGraph",
+"running on":0,
+"ops_count":925044736,
+"perf_node":true,
+"internal_nodes":[{
+"layer node name":"vgg_16_conv5_conv5_3_Conv2D",
+"op_type":"Convolution"
+}
+]
+}
+,{
+"layer node name":"subgraph_vgg_16_pool5_MaxPool",
+"op_type":"SubGraph",
+"running on":0,
+"ops_count":100352,
+"perf_node":true,
+"internal_nodes":[{
+"layer node name":"vgg_16_pool5_MaxPool",
+"op_type":"Pooling"
+}
+]
+}
+,{
+"layer node name":"subgraph_vgg_16_fc6_Conv2D",
+"op_type":"SubGraph",
+"running on":0,
+"ops_count":205529088,
+"perf_node":true,
+"internal_nodes":[{
+"layer node name":"vgg_16_fc6_Conv2D",
+"op_type":"Convolution"
+}
+]
+}
+,{
+"layer node name":"subgraph_vgg_16_fc7_Conv2D",
+"op_type":"SubGraph",
+"running on":0,
+"ops_count":33562624,
+"perf_node":true,
+"internal_nodes":[{
+"layer node name":"vgg_16_fc7_Conv2D",
+"op_type":"Convolution"
+}
+]
+}
+,{
+"layer node name":"subgraph_vgg_16_fc8_Conv2D",
+"op_type":"SubGraph",
+"running on":0,
+"ops_count":8194000,
+"perf_node":true,
+"internal_nodes":[{
+"layer node name":"vgg_16_fc8_Conv2D",
+"op_type":"Convolution"
+}
+]
+}
+],
+"origin_idx":[[0],[1],[2],[3],[4],[5],[6],[7],[8],[9],[10],[11],[12],[13],[14],[15],[16],[17],[18],[19],[20],[21]],
+"run_node_idx":[[0],[1],[2],[3],[4],[5],[6],[7],[8],[9],[10],[11],[12],[13],[14],[15],[16],[17],[18],[19],[20],[21]],
+"profile":{
+"profile events":"default",
+"output size":768,
+"frequency":800,
+"prof_unit":"AIFF"
+}
+,
+"magic number":"63b2bb9bea2f2caae1be1497e4a7509df069feea"
+}
+
